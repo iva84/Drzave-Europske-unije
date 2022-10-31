@@ -1,0 +1,782 @@
+[
+	{
+		"naziv":"Austrija",
+		"ISO oznaka drzave":"AUT",
+		"puni naziv":"Republika Austrija",
+		"datum ulaska u EU":"1995-01-01T00:00:00",
+		"povrsina u km2":83879,
+		"broj stanovnika":8978929,
+		"glavni grad":"Beč",
+		"himna":"Zemljo brda, zemljo na rijekama",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Alexander Van der Bellen"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "njemački", 
+				"ISO oznaka" : "de"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Belgija",
+		"ISO oznaka drzave":"BEL",
+		"puni naziv":"Kraljevina Belgija",
+		"datum ulaska u EU":"1958-01-01T00:00:00",
+		"povrsina u km2":30528,
+		"broj stanovnika":11631136,
+		"glavni grad":"Bruxelles",
+		"himna":"Pjesma o Brabantu",
+		"drzavni vrh":[
+			{
+				"uloga" : "kralj", 
+				"puno ime" : "Filip Leopold Lodewijk Maria"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "francuski", 
+				"ISO oznaka" : "fr"
+			}, 
+			{
+				"naziv" : "njemački", 
+				"ISO oznaka" : "de"
+			}, 
+			{
+				"naziv" : "nizozemski", 
+				"ISO oznaka" : "nl"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Bugarska",
+		"ISO oznaka drzave":"BGR",
+		"puni naziv":"Republika Bugarska",
+		"datum ulaska u EU":"2007-01-01T00:00:00",
+		"povrsina u km2":110370,
+		"broj stanovnika":6838937,
+		"glavni grad":"Sofija",
+		"himna":"Mila domovino",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Rumen Radev"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "bugarski", 
+				"ISO oznaka" : "bg"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "bugarski lev", 
+				"ISO oznaka" : "BGN"
+			}
+		]
+	},
+	{
+		"naziv":"Cipar",
+		"ISO oznaka drzave":"CYP",
+		"puni naziv":"Republika Cipar",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":9251,
+		"broj stanovnika":904705,
+		"glavni grad":"Nikozija",
+		"himna":"Himna slobodi",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Nikos Anastasiades"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "grčki", 
+				"ISO oznaka" : "el"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Češka",
+		"ISO oznaka drzave":"CZE",
+		"puni naziv":"Češka Republika",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":78868,
+		"broj stanovnika":10516707,
+		"glavni grad":"Prag",
+		"himna":"Gdje moj je dom",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Miloš Zeman"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "češki", 
+				"ISO oznaka" : "cs"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "češka kruna", 
+				"ISO oznaka" : "CZK"
+			}
+		]
+	},
+	{
+		"naziv":"Njemačka",
+		"ISO oznaka drzave":"DEU",
+		"puni naziv":"Savezna Republika Njemačka",
+		"datum ulaska u EU":"1958-01-01T00:00:00",
+		"povrsina u km2":357376,
+		"broj stanovnika":83237124,
+		"glavni grad":"Berlin",
+		"himna":"Pjesma Nijemaca",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Frank-Walter Steinmeier"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "njemački", 
+				"ISO oznaka" : "de"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Danska",
+		"ISO oznaka drzave":"DNK",
+		"puni naziv":"Kraljevina Danska",
+		"datum ulaska u EU":"1973-01-01T00:00:00",
+		"povrsina u km2":42924,
+		"broj stanovnika":5873420,
+		"glavni grad":"Kopenhagen",
+		"himna":"Ima jedna divna zemlja",
+		"drzavni vrh":[
+			{
+				"uloga" : "kralj", 
+				"puno ime" : "Margareta II."
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "danski", 
+				"ISO oznaka" : "da"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "danska kruna", 
+				"ISO oznaka" : "DKK"
+			}
+		]
+	},
+	{
+		"naziv":"Španjolska",
+		"ISO oznaka drzave":"ESP",
+		"puni naziv":"Kraljevina Španjolska",
+		"datum ulaska u EU":"1986-01-01T00:00:00",
+		"povrsina u km2":505944,
+		"broj stanovnika":47432805,
+		"glavni grad":"Madrid",
+		"himna":"Kraljevski marš",
+		"drzavni vrh":[
+			{
+				"uloga" : "kralj", 
+				"puno ime" : "Felipe VI."
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "španjolski", 
+				"ISO oznaka" : "es"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Estonija",
+		"ISO oznaka drzave":"EST",
+		"puni naziv":"Republika Estonija",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":45227,
+		"broj stanovnika":1331796,
+		"glavni grad":"Tallinn",
+		"himna":"Moja domovina, moja sreća i radost",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Kersti Kaljulaid"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "estonski", 
+				"ISO oznaka" : "et"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Finska",
+		"ISO oznaka drzave":"FIN",
+		"puni naziv":"Republika Finska",
+		"datum ulaska u EU":"1995-01-01T00:00:00",
+		"povrsina u km2":338440,
+		"broj stanovnika":5548241,
+		"glavni grad":"Helsinki",
+		"himna":"Naša zemlja",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Sauli Niinistö"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "finski", 
+				"ISO oznaka" : "fi"
+			}, 
+			{
+				"naziv" : "švedski", 
+				"ISO oznaka" : "sv"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Francuska",
+		"ISO oznaka drzave":"FRA",
+		"puni naziv":"Francuska Republika",
+		"datum ulaska u EU":"1958-01-01T00:00:00",
+		"povrsina u km2":633186,
+		"broj stanovnika":67842582,
+		"glavni grad":"Pariz",
+		"himna":"Marseljeza",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Emmanuel Macron"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "francuski", 
+				"ISO oznaka" : "fr"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Grčka",
+		"ISO oznaka drzave":"GRC",
+		"puni naziv":"Helenska Republika",
+		"datum ulaska u EU":"1981-01-01T00:00:00",
+		"povrsina u km2":132049,
+		"broj stanovnika":10603810,
+		"glavni grad":"Atena",
+		"himna":"Himna slobodi",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Katerina Sakellaropoulou"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "grčki", 
+				"ISO oznaka" : "el"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Hrvatska",
+		"ISO oznaka drzave":"HRV",
+		"puni naziv":"Republika Hrvatska",
+		"datum ulaska u EU":"2013-07-01T00:00:00",
+		"povrsina u km2":56594,
+		"broj stanovnika":3879074,
+		"glavni grad":"Zagreb",
+		"himna":"Lijepa naša domovino",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Zoran Milanović"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "hrvatski", 
+				"ISO oznaka" : "hr"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "hrvatska kuna", 
+				"ISO oznaka" : "HRK"
+			}
+		]
+	},
+	{
+		"naziv":"Mađarska",
+		"ISO oznaka drzave":"HUN",
+		"puni naziv":"Mađarska",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":93011,
+		"broj stanovnika":9689010,
+		"glavni grad":"Budimpešta",
+		"himna":"Bože, blagoslovi Mađare",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Katalin Novák"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "mađarski", 
+				"ISO oznaka" : "hu"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "mađarska forinta", 
+				"ISO oznaka" : "HUF"
+			}
+		]
+	},
+	{
+		"naziv":"Irska",
+		"ISO oznaka drzave":"IRL",
+		"puni naziv":"Irska",
+		"datum ulaska u EU":"1973-01-01T00:00:00",
+		"povrsina u km2":69797,
+		"broj stanovnika":5060005,
+		"glavni grad":"Dublin",
+		"himna":"Vojnikova pjesma",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Michael Daniel Higgins"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "irski", 
+				"ISO oznaka" : "ga"
+			}, 
+			{
+				"naziv" : "engleski", 
+				"ISO oznaka" : "en"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Italija",
+		"ISO oznaka drzave":"ITA",
+		"puni naziv":"Talijanska Republika",
+		"datum ulaska u EU":"1958-01-01T00:00:00",
+		"povrsina u km2":302073,
+		"broj stanovnika":58983122,
+		"glavni grad":"Rim",
+		"himna":"Pjev Talijana",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Sergio Mattarella"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "talijanski", 
+				"ISO oznaka" : "it"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Litva",
+		"ISO oznaka drzave":"LTU",
+		"puni naziv":"Republika Litva",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":65286,
+		"broj stanovnika":2805998,
+		"glavni grad":"Vilnius",
+		"himna":"Nacionalna himna",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Gitanas Nausėda"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "litavski", 
+				"ISO oznaka" : "lt"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Luksemburg",
+		"ISO oznaka drzave":"LUX",
+		"puni naziv":"Veliko Vojvodstvo Luksemburg",
+		"datum ulaska u EU":"1958-01-01T00:00:00",
+		"povrsina u km2":2586,
+		"broj stanovnika":645397,
+		"glavni grad":"Luxembourg",
+		"himna":"Naša domovina",
+		"drzavni vrh":[
+			{
+				"uloga" : "veliki vojvoda", 
+				"puno ime" : "Henri Luksemburški"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "njemački", 
+				"ISO oznaka" : "de"
+			}, 
+			{
+				"naziv" : "francuski", 
+				"ISO oznaka" : "fr"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Latvija",
+		"ISO oznaka drzave":"LVA",
+		"puni naziv":"Republika Latvija",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":64573,
+		"broj stanovnika":1875757,
+		"glavni grad":"Riga",
+		"himna":"Bože, blagoslovi Latviju!",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Egils Levits"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "latvijski", 
+				"ISO oznaka" : "lv"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Malta",
+		"ISO oznaka drzave":"MLT",
+		"puni naziv":"Republika Malta",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":315.4,
+		"broj stanovnika":520971,
+		"glavni grad":"Valletta",
+		"himna":"Malteška himna",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "George Vella"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "engleski", 
+				"ISO oznaka" : "en"
+			}, 
+			{
+				"naziv" : "malteški", 
+				"ISO oznaka" : "mt"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Nizozemska",
+		"ISO oznaka drzave":"NLD",
+		"puni naziv":"Nizozemska",
+		"datum ulaska u EU":"1958-01-01T00:00:00",
+		"povrsina u km2":41540,
+		"broj stanovnika":17590672,
+		"glavni grad":"Amsterdam",
+		"himna":"Wilhelmus",
+		"drzavni vrh":[
+			{
+				"uloga" : "kralj", 
+				"puno ime" : "Willem-Alexander"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "nizozemski", 
+				"ISO oznaka" : "nl"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Poljska",
+		"ISO oznaka drzave":"POL",
+		"puni naziv":"Republika Poljska",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":312679,
+		"broj stanovnika":37654247,
+		"glavni grad":"Varšava",
+		"himna":"Mazurek Dąbrowskiego",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Andrzej Duda"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "poljski",
+				"ISO oznaka" : "pl"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "poljski zloti", 
+				"ISO oznaka" : "PLN"
+			}
+		]
+	},
+	{
+		"naziv":"Portugal",
+		"ISO oznaka drzave":"PRT",
+		"puni naziv":"Portugalska Republika",
+		"datum ulaska u EU":"1986-01-01T00:00:00",
+		"povrsina u km2":92226,
+		"broj stanovnika":10352042,
+		"glavni grad":"Lisabon",
+		"himna":"Portugalska",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Marcelo Rebelo de Sousa"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "portugalski", 
+				"ISO oznaka" : "pt"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Rumunjska",
+		"ISO oznaka drzave":"ROU",
+		"puni naziv":"Rumunjska",
+		"datum ulaska u EU":"2007-01-01T00:00:00",
+		"povrsina u km2":238390,
+		"broj stanovnika":19038098,
+		"glavni grad":"Bukurešt",
+		"himna":"Probudite se, Rumunji",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Klaus Iohannis"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "rumunjski", 
+				"ISO oznaka" : "ro"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "rumunjski leu", 
+				"ISO oznaka" : "RON"
+			}
+		]
+	},
+	{
+		"naziv":"Slovačka",
+		"ISO oznaka drzave":"SVK",
+		"puni naziv":"Slovačka Republika",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":49035,
+		"broj stanovnika":5434712,
+		"glavni grad":"Bratislava",
+		"himna":"Nad Tatrama sijeva",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Zuzana Čaputová"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "slovački", 
+				"ISO oznaka" : "sk"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Slovenija",
+		"ISO oznaka drzave":"SVN",
+		"puni naziv":"Republika Slovenija",
+		"datum ulaska u EU":"2004-05-01T00:00:00",
+		"povrsina u km2":20273,
+		"broj stanovnika":2107180,
+		"glavni grad":"Ljubljana",
+		"himna":"Zdravljica",
+		"drzavni vrh":[
+			{
+				"uloga" : "predsjednik", 
+				"puno ime" : "Borut Pahor"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "slovenski", 
+				"ISO oznaka" : "sl"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "euro", 
+				"ISO oznaka" : "EUR"
+			}
+		]
+	},
+	{
+		"naziv":"Švedska",
+		"ISO oznaka drzave":"SWE",
+		"puni naziv":"Kraljevina Švedska",
+		"datum ulaska u EU":"1995-01-01T00:00:00",
+		"povrsina u km2":438574,
+		"broj stanovnika":10452326,
+		"glavni grad":"Stockholm",
+		"himna":"Ti stari, ti slobodni",
+		"drzavni vrh":[
+			{
+				"uloga" : "kralj", 
+				"puno ime" : "Carl XVI. Gustaf"
+			}
+		],
+		"jezik":[
+			{
+				"naziv" : "švedski", 
+				"ISO oznaka" : "sv"
+			}
+		],
+		"valuta":[
+			{
+				"naziv" : "švedska kruna", 
+				"ISO oznaka" : "SEK"
+			}
+		]
+	}
+]
