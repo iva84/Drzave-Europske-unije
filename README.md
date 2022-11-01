@@ -58,5 +58,6 @@ https://hr.wikipedia.org/wiki/Popis_ISO_639_oznaka_jezika
 https://hr.wikipedia.org/wiki/Popis_valuta_po_dr%C5%BEavama  
 https://european-union.europa.eu/principles-countries-history/key-facts-and-figures/life-eu_hr  
 https://hr.wikipedia.org/wiki/  
+https://github.com/santisoler/cc-licenses  
 
 
