@@ -4,7 +4,7 @@ Ovo je skup otvorenih podataka u kojem se nalaze države članice Europske unije
 Za svaku državu prikazani su odgovarajući podaci, na primjer naziv države, valuta koja se koristi, 
 jezik, glavni grad, predsjednik, sve to i više je navedeno u tekstu ispod.  
 
-***Licenca***:  
+***Licenca***: *CC-BY-SA-4.0*
 
 ***Autor***: Iva Bazo  
 
