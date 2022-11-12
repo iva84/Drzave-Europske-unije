@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Države Europske unije</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <meta name="description" content="Otvoreni skup podataka o državama Europske unije." />
+        <meta name="keywords" content="otvoreni skup podataka, podaci, država, Europska unija, države Europske unije, json, csv, json schema" />
+        <meta name="author" content="Iva Bazo" />
+    </head>
+    <body>
+
+        <nav class="navbar bg-primary">
+            <h1 class="naslov">Države Europske unije</h1>
+        </nav>
+
+        <div class="opis">
+            <p>
+                Ovo je skup otvorenih podataka u kojem se nalaze države članice Europske unije.
+                Za svaku državu prikazani su odgovarajući podaci, na primjer naziv države, valuta koja se koristi, jezik, 
+                glavni grad, predsjednik, sve to i više je navedeno u tekstu ispod.
+            </p>
+            <p>
+                <b>Licenca</b>: CC-BY-SA-4.0<br/>
+                <b>Autor</b>: Iva Bazo<br/>
+                <b>Verzija skupa podataka</b>: 2.0<br/>
+                <b>Jezik u kojem su zapisani podaci</b>: hrvatski<br/>
+            </p>
+            <p class="opisContainer container"> 
+                <h4>Opis tablica i atributa koji su pohranjeni u bazi podataka:</h4>
+                
+                <div class="row bg-light">
+                    <ul class="opisLista col">
+                        <label><b>Tablica drzava:</b></label>
+                        <li><b>ISOozn</b> - ISO oznaka države</li>
+                        <li><b>naziv</b> - naziv države</li>
+                        <li><b>datumUlaskaEU</b> - datum ulaska države u Europsku uniju</li>
+                        <li><b>povrsina</b> - površina države u kilometrima kvadratnim</li>
+                        <li><b>brojStanovnika</b> - broj stanovnika države</li>
+                        <li><b>nazivHimne</b> - naziv državne himne</li>
+                        <li><b>glavniGrad</b> - naziv glavnog grada</li>
+                        <li><b>puniNaziv</b> - puni naziv države</li>
+                    </ul>
+                    <ul class="opisLista col">
+                        <label><b>Tablica drzavniVrh:</b></label>
+                        <li><b>punoIme</b> - puno ime osobe (ime i prezime)</li>
+                        <li><b>ISOoznDrz</b> - ISO oznaka države u kojoj osoba živi / koje je nacionalnosti</li>
+                        <li><b>uloga</b> - uloga koju osoba ima u državi</li>
+                    </ul>
+                </div>
+                <div class="row bg-light">
+                    <ul class="opisLista col">
+                        <label><b>Tablica jezik:</b></label>
+                        <li><b>ISOozn</b> - ISO oznaka jezika</li>
+                        <li><b>naziv</b> - naziv jezika</li>
+                    </ul>
+                    <ul class="opisLista col">
+                        <label><b>Tablica drzavaJezik:</b></label>
+                        <li><b>ISOoznDrz</b> - ISO oznaka države</li>
+                        <li><b>ISOoznJez</b> - ISO oznaka jezika koji se govori u toj državi</li>
+                    </ul>
+                </div>
+                <div class="row bg-light">
+                    <ul class="opisLista col">
+                        <label><b>Tablica valuta:</b></label>
+                        <li><b>ISOozn</b> - ISO oznaka valute</li>
+                        <li><b>naziv</b> - naziv valute</li>
+                    </ul>
+                    <ul class="opisLista col">
+                        <label><b>Tablica drzavaValuta:</b></label>
+                        <li><b>ISOoznDrz</b> - ISO oznaka države</li>
+                        <li><b>ISOoznVal</b> - ISO oznaka valute koja se koristi u toj državi</li>
+                    </ul>
+                </div>
+            </p>
+        </div>
+
+        <div class="d-flex flex-column btnPrikazPodataka">
+            <a href="/datatable" class="btn btn-lg btn-primary <%if (linkActive === 'datatable') {%>  link-active  <%}%>">Prikaz podataka</a>    
+        </div>
+        <div class="d-flex flex-column btnSkidanjePodataka">
+            <a href="/resources/drzaveEU.csv" download="drzaveEU.csv" class="btn btn-lg btn-secondary btn-block">Preuzmi podatke u formatu .csv</a>
+            <a href="/resources/drzaveEU.json" download="drzaveEU.json" class="btn btn-lg btn-secondary btn-block">Preuzmi podatke u formatu .json</a>    
+        </div>
+    </body>
+</html>

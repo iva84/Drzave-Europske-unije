@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+/* index.ejs */
+html {
+    font-size: 20px;
+}
+
+.naslov {
+    margin: auto;
+    padding: 25px;
+    color: white;
+
+}
+
+.sadrzaj {
+    margin: auto;
+}
+
+.opis {
+    width: 50vw;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.opisLista {
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.opisLista label {
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.opisLista li {
+    margin-left: 20px;
+}
+
+.btnPrikazPodataka {
+    width: 30%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.btnSkidanjePodataka {
+    width: 30%; 
+    margin: auto; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.btnSkidanjePodataka a {
+    margin-bottom: 30px;
+}
+
+/* datatable.ejs */
+
+.naslovAnchor {
+    color: white;
+    text-decoration: none;
+}
+
+#searchBar {
+    width: 700px; 
+    padding: 50px; 
+    margin: auto;
+}
+
+.odabirAtributa {
+    padding-top: 25px;
+}
+
+.btnSubmit {
+    margin-left: 250px; 
+    margin-top: 25px;
+}
+
+#filtriraniPodaci {
+    width: 30%; 
+    margin: auto; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    display: none;
+}
+
+#filtriraniPodaci a {
+    margin-bottom: 30px;
+}
+
+#drzaveEU {
+    width: 80%; 
+    margin: auto; 
+    margin-bottom: 50px; 
+    padding-bottom: 50px;
+}
+
+.opisContainer {
+    margin: auto;
+    margin-top: 50px;
+}
