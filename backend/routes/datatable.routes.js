@@ -5,6 +5,76 @@ const fs = require('fs');
 const Json2csvParser = require("json2csv").Parser;
 const json2csvParser = new Json2csvParser({ header: true });
 
+
+/*
+router.post('/', async function (req, res, next) {
+
+    let rows;
+
+    //console.log(req);
+    console.log(req.body);
+
+    if (req.body.search_attribute == "naziv") {
+
+        rows = (await db.query('SELECT public."drzava"."naziv",' + 
+        'public."drzava"."ISOozn" AS "ISO_oznaka_drzave",' + 
+        'public."drzava"."puniNaziv" AS "puni_naziv",' +
+        'public."drzava"."datumUlaskaEU" AS "datum_ulaska_u_EU",' +
+        'public."drzava"."povrsina" AS "povrsina_u_km2",' +
+        'public."drzava"."brojStanovnika" AS "broj_stanovnika",' +
+        'public."drzava"."glavniGrad" AS "glavni_grad",' +
+        'public."drzava"."nazivHimne" AS "himna",' +
+        'public."drzavniVrh"."uloga" || \' \' || public."drzavniVrh"."punoIme" AS "drzavni_vrh",' +
+        'public."drzavaJezik"."ISOoznJez" AS "ISO_oznaka_jezika",' +
+        'public."jezik"."naziv" AS "jezik",' +
+        'public."drzavaValuta"."ISOoznVal" AS "ISO_oznaka_valute",' +
+        'public."valuta"."naziv" AS "valuta"' +
+      'FROM public."drzavaJezik", public."drzava", public."jezik",' +
+              'public."drzavaValuta", public."valuta", public."drzavniVrh"' +
+      'WHERE public."drzavaJezik"."ISOoznDrz" = public."drzava"."ISOozn"' +
+          'AND public."jezik"."ISOozn" = public."drzavaJezik"."ISOoznJez"' +
+          'AND public."drzava"."ISOozn" = public."drzavaValuta"."ISOoznDrz"' +
+          'AND public."drzavaValuta"."ISOoznVal" = public."valuta"."ISOozn"' +
+          'AND public."drzava"."ISOozn" = public."drzavniVrh"."ISOoznDrz"' + 
+          'AND public."drzava".naziv = ' + req.body.search)).rows;
+
+    } else {
+
+        rows = (await db.query('SELECT public."drzava"."naziv",' + 
+    'public."drzava"."ISOozn" AS "ISO_oznaka_drzave",' + 
+    'public."drzava"."puniNaziv" AS "puni_naziv",' +
+    'public."drzava"."datumUlaskaEU" AS "datum_ulaska_u_EU",' +
+    'public."drzava"."povrsina" AS "povrsina_u_km2",' +
+    'public."drzava"."brojStanovnika" AS "broj_stanovnika",' +
+    'public."drzava"."glavniGrad" AS "glavni_grad",' +
+    'public."drzava"."nazivHimne" AS "himna",' +
+    'public."drzavniVrh"."uloga" || \' \' || public."drzavniVrh"."punoIme" AS "drzavni_vrh",' +
+    'public."drzavaJezik"."ISOoznJez" AS "ISO_oznaka_jezika",' +
+    'public."jezik"."naziv" AS "jezik",' +
+    'public."drzavaValuta"."ISOoznVal" AS "ISO_oznaka_valute",' +
+    'public."valuta"."naziv" AS "valuta"' +
+  'FROM public."drzavaJezik", public."drzava", public."jezik",' +
+          'public."drzavaValuta", public."valuta", public."drzavniVrh"' +
+  'WHERE public."drzavaJezik"."ISOoznDrz" = public."drzava"."ISOozn"' +
+      'AND public."jezik"."ISOozn" = public."drzavaJezik"."ISOoznJez"' +
+      'AND public."drzava"."ISOozn" = public."drzavaValuta"."ISOoznDrz"' +
+      'AND public."drzavaValuta"."ISOoznVal" = public."valuta"."ISOozn"' +
+      'AND public."drzava"."ISOozn" = public."drzavniVrh"."ISOoznDrz"')).rows;
+    }
+
+
+    
+
+//rows je polje objekata
+//console.log(rows);
+
+    res.render('datatable', {
+    title: 'Datatable',
+    linkActive: 'datatable',
+    rows: rows,
+    });
+});
+*/
 router.get('/', async function (req, res, next) {
 
         let rows = (await db.query('SELECT public."drzava"."naziv",' + 
@@ -29,6 +99,19 @@ router.get('/', async function (req, res, next) {
                 'AND public."drzava"."ISOozn" = public."drzavniVrh"."ISOoznDrz"')).rows;
 
     //rows je polje objekata
+
+    fs.writeFile("./public/resources/drzaveEUfiltrirano.json", JSON.stringify(rows), function(err) {
+        if (err) throw err;
+        console.log('JSON spremljen');
+    });
+
+    console.log(rows);
+    const csvData = json2csvParser.parse(rows);
+
+    fs.writeFile("./public/resources/drzaveEUfiltrirano.csv", csvData, function(err) {
+        if (err) throw err;
+        console.log('CSV spremljen');
+    });
 
     res.render('datatable', {
         title: 'Datatable',
@@ -427,6 +510,13 @@ router.post('/', async function (req, res, next) {
         tableContent = tableContent + "</td>";
         tableContent = tableContent + "</tr>";
     }
+
+    /*
+    fs.writeFile('/resources/drzaveEUfiltrirano.json', JSON.stringify(rows), function(err) {
+        if (err) throw err;
+        console.log('JSON');
+    });
+    */
 
     fs.writeFile("./public/resources/drzaveEUfiltrirano.json", JSON.stringify(rows), function(err) {
         if (err) throw err;
